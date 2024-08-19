@@ -1,4 +1,4 @@
-# Boilerplate ML
+# Create ML Project
 
 ### Lazy dude command line project to create boilerplate folder structure and code for a Machine Learning Project.
 
@@ -6,10 +6,23 @@ Will be adding more documentation in the next iterations.
 
 ---
 
+The goal of this project is to very quickly setup most of what is needed to jump start a new ML project. Currently focusing only on Computer Vision tasks working with PyTorch.
+First the folder structure will be composed as follows:
+```
+project-name-folder
+├───data
+│   ├───test
+│   ├───train
+│   └───validation
+├───logs
+├───models
+└───tools
+```
+
 usage:
 
 ```cmd
-create_ml_project.py [-h] --project-name PROJECT_NAME [--project-path PROJECT_PATH]
+python create_ml_project.py [-h] --project-name PROJECT_NAME [--project-path PROJECT_PATH]
 ```
 
 ```
