@@ -1,0 +1,8 @@
+# Base requirements for the base project. 
+# Please add any additional requirements and/or versions as you need.
+matplotlib
+numpy
+torch
+torchinfo
+torchvision
+tqdm

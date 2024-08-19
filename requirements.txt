@@ -1,0 +1,2 @@
+# Currently no requirements needed for this project as it uses only python modules.
+# ML specific requirements will be defined in each project directly.
