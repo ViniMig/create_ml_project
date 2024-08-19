@@ -6,9 +6,13 @@ Will be adding more documentation in the next iterations.
 
 ---
 
-```cmd
-usage: create_ml_project.py [-h] --project-name PROJECT_NAME [--project-path PROJECT_PATH]
+usage:
 
+```cmd
+create_ml_project.py [-h] --project-name PROJECT_NAME [--project-path PROJECT_PATH]
+```
+
+```
 Python tool to create a new ML project.
 
 options:
