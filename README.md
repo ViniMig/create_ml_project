@@ -1,6 +1,6 @@
 # Create ML Project
 
-### Lazy dude command line project to create boilerplate folder structure and code for a Machine Learning Project.
+### Lazy dude command line project to create boilerplate folder structure and code for Machine Learning Projects.
 
 Will be adding more documentation in the next iterations.
 
@@ -68,7 +68,7 @@ The **.gitignore** is the default one generated for python projects. With time a
 
 The **requirements.txt** comes with a generic list of the modules being used in the boilerplate PyTorch computer vision code. Therefore any additional modules should be added to this file, versions specified in case necessary.
 
-The **train_cv.py** contains a script that can be executed from the cmd linem, with the option to set some hyperparameters as needed. This file is boilerplate interface to run experiments on training certain models. It can be discarded completely, or modified as needed with the appropriate changes as the projects might require. This is just default code to try and help accelerate in the process of training models, calling to the auxiliary scripts available in the **tools** folder.
+The **train_cv.py** contains a script that can be executed from the cmd line, with the option to set hyperparameters as needed. This file is boilerplate interface to run experiments on training certain models. It can be discarded completely, or modified as needed with the appropriate changes as the projects might require. This is a default script to help accelerate in the process of training models, calling the auxiliary scripts available in the **tools** folder.
 
 The following python files, all exist inside the tools folder. The goal is to have some minimal compartmentalization of the project, and the advantage of this all being Python code is that at any time we can either compartmentalize further or just have all files in the same directory, depending on project and on personal decisions.
 Inside this folder we have currently 4 files available:
